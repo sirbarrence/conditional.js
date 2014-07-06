@@ -168,11 +168,11 @@ define([
 });
 ```
 
-**Note**: config properties and function return values should either be booleans or numbers. Numbers are only useful if you have more than two possible dependencies to choose from at runtime; the number will be interpreted as an index into the `load` array.
+**Note**: The config property value or function return value for your test should either be a boolean or a number. Numbers are only useful if you have more than two possible dependencies to choose from at runtime; the number will be interpreted as an index into the `load` array.
 
 ## Examples
 
-The previous two examples can be found with fuller context in the [examples](https://github.com/sirbarrence/conditional.js/examples) directory. It includes dummy versions of a two versions of jQuery and an ES5 shim library that are loaded and used by a `main.js` script as well as a child script, creatively named `script1.js`.
+The previous two examples can be found with fuller context in the [examples](https://github.com/sirbarrence/conditional.js/tree/master/examples) directory. It includes dummy versions of a two versions of jQuery and an ES5 shim library that are loaded and used by a `main.js` script as well as a child script, creatively named `script1.js`.
 
 ## Tests
 
