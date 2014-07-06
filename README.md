@@ -179,6 +179,8 @@ The previous two examples can be found with fuller context in the [examples](htt
 There are a handful of Jasmine tests that can be run on the command line via Node and PhantomJS. Clone this repo and change into its directory, then use `npm` and `bower` to install some dev dependencies and use `grunt` to run the tests.
 
 ```bash
+git clone https://github.com/sirbarrence/conditional.js.git
+cd conditional.js
 npm install -g grunt-cli
 npm install
 bower install
